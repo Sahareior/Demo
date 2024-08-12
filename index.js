@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://singular-cat-d02c41.netlify.app',
   methods: ['GET', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true, // Allow credentials
